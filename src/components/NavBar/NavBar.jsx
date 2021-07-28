@@ -36,7 +36,7 @@ export default function NavBar(props) {
 					enterDelay={250}
 					arrow>
 					<IconButton
-						href="https://github.com/shreyas710/pathFinding"
+						href="https://github.com/shreyas710/pathFindingVisualizer"
 						color="inherit"
 						target="_blank">
 						<GitHub aria-hidden />
