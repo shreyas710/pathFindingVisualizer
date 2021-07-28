@@ -1,0 +1,121 @@
+.board__node {
+	display: table-cell;
+	width: 25px;
+	height: 25px;
+	border: 1px solid rgb(179, 229, 252);
+	box-sizing: border-box;
+}
+
+/* .board__node:hover {
+  opacity: 0.75;
+} */
+
+.node-start {
+	background-color: rgb(67, 160, 71);
+	animation: draw-start 0.2s ease-out;
+}
+
+.node-finish {
+	background-color: rgb(229, 57, 53);
+	animation: draw-finish 0.2s ease-out;
+}
+
+.node-wall {
+	background-color: rgb(12, 53, 71);
+	animation: draw-wall 0.2s ease-out;
+}
+
+.node-weight-10 {
+	background-color: rgb(120, 144, 156);
+}
+
+.node-weight-20 {
+	background-color: rgb(96, 125, 139);
+}
+
+.node-weight-30 {
+	background-color: rgb(84, 110, 122);
+}
+
+.node-weight-40 {
+	background-color: rgb(69, 90, 100);
+}
+
+.node-weight-50 {
+	background-color: rgb(55, 71, 79);
+}
+
+.board__path {
+	flex: 1;
+	height: 100%;
+	pointer-events: none;
+}
+
+.node-visited {
+	background-color: rgba(0, 188, 212, 0.75);
+}
+
+.node-visited.animated {
+	animation: draw-visited 1s ease-out;
+}
+
+.node-shortest-path {
+	background-color: rgba(255, 238, 88, 0.75);
+}
+
+.node-shortest-path.animated {
+	animation: draw-shortest 1s ease-out;
+}
+
+/* Animations */
+@keyframes draw-start {
+	0% {
+		transform: scale(0.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes draw-finish {
+	0% {
+		transform: scale(0.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes draw-wall {
+	0% {
+		transform: scale(0.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes draw-visited {
+	0% {
+		transform: scale(0.3);
+		border-radius: 100%;
+	}
+	75% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes draw-shortest {
+	0% {
+		transform: scale(0.6);
+	}
+	75% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
