@@ -35,12 +35,12 @@ export default class Home extends Component {
 		const maxRow = Math.trunc(window.innerHeight / 35);
 
 		this.start = {
-			x: 5,
-			y: maxRow / 2,
+			x: 0,
+			y: 0,
 		};
 		this.finish = {
-			x: maxCol - 5,
-			y: maxRow / 2,
+			x: maxCol-1,
+			y: maxRow-1,
 		};
 
 		// Initialize board
