@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pathFindingVisualizer/static/css/main.a3f78702.chunk.css",
+    "main.js": "/pathFindingVisualizer/static/js/main.46ca617d.chunk.js",
+    "main.js.map": "/pathFindingVisualizer/static/js/main.46ca617d.chunk.js.map",
+    "runtime-main.js": "/pathFindingVisualizer/static/js/runtime-main.491e03c8.js",
+    "runtime-main.js.map": "/pathFindingVisualizer/static/js/runtime-main.491e03c8.js.map",
+    "static/css/2.226b89c2.chunk.css": "/pathFindingVisualizer/static/css/2.226b89c2.chunk.css",
+    "static/js/2.0b852ac9.chunk.js": "/pathFindingVisualizer/static/js/2.0b852ac9.chunk.js",
+    "static/js/2.0b852ac9.chunk.js.map": "/pathFindingVisualizer/static/js/2.0b852ac9.chunk.js.map",
+    "index.html": "/pathFindingVisualizer/index.html",
+    "precache-manifest.99689e783e24cc93229346c66d74242b.js": "/pathFindingVisualizer/precache-manifest.99689e783e24cc93229346c66d74242b.js",
+    "service-worker.js": "/pathFindingVisualizer/service-worker.js",
+    "static/css/2.226b89c2.chunk.css.map": "/pathFindingVisualizer/static/css/2.226b89c2.chunk.css.map",
+    "static/css/main.a3f78702.chunk.css.map": "/pathFindingVisualizer/static/css/main.a3f78702.chunk.css.map",
+    "static/js/2.0b852ac9.chunk.js.LICENSE.txt": "/pathFindingVisualizer/static/js/2.0b852ac9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pathFindingVisualizer/static/media/roboto-vietnamese-400-normal.756af8e5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.491e03c8.js",
+    "static/css/2.226b89c2.chunk.css",
+    "static/js/2.0b852ac9.chunk.js",
+    "static/css/main.a3f78702.chunk.css",
+    "static/js/main.46ca617d.chunk.js"
+  ]
+}
