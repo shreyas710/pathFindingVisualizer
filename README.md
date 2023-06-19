@@ -1,3 +1,3 @@
 # pathFindingVisualizer
 
-Demo: https://pathfindingvisualizer00.herokuapp.com/
+Demo: https://shreyas710.github.io/pathFindingVisualizer/
